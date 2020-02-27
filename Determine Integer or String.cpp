@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-bool compare(string c)
+bool compare(string c) //true or false statement
 {
 	for(int i; i<c.length();i++)
 	{
@@ -23,7 +23,7 @@ int main()
 	
 	cout<<"enter: ";
 	
-	for(i=0;;i++)
+	for(i=0;;i++) 
 	{
 		cin>>str[i];
 		if(cin.get()=='\n')
@@ -33,7 +33,7 @@ int main()
 		}
 	}
 	
-	for(i=0;i<=count;i++)
+	for(i=0;i<=count;i++) 
 	{
 		temp = str[i];
 		if(compare(temp))
